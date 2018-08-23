@@ -1,0 +1,29 @@
+.shapes {
+    position: relative;
+    left: -150px;
+}
+#parallelogram {
+	width: 200px;
+	height: 60px;
+	transform: skew(50deg);
+    background: #555;
+    position: relative;
+    left: 700px;
+    bottom: -120px;
+}
+#triangle {
+    width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+    border-bottom: 120px solid #8A623D  ;
+    position: relative;
+    left: 590px;
+}
+#rectangle {
+    height: 150px;
+    width: 345px;
+    background-color: #DFECB8  ;
+    position: relative;
+    left: 590px;
+  }
